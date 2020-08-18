@@ -1,0 +1,121 @@
+{
+    "Rows": [
+        {
+            "Cells": [
+                {
+                    "ControlKey": [
+                        "no-card"
+                    ],
+                    "CellHeight": "100%",
+                    "Cellwidth":"30%",
+                    "CellId":"00",
+                    "RowId":"0"
+                },
+                {
+                    "CellHeight": "100%",
+                    "Cellwidth":"70%",
+                    "Rows":[
+                        {
+                            "Cells": [
+                                {
+                                    "ControlKey": [
+                                        "no-card"
+                                    ],
+                                    "CellHeight": "20%",
+                                    "Cellwidth":"100%",
+                                    "CellId":"00",
+                                     "RowId":"0"
+                                }
+                            ]
+                        },
+                        {
+                            "Cells": [
+                                {
+                                    "CellHeight": "80%",
+                                    "Cellwidth":"100%",
+                                    "Rows":[
+                                        {
+                                            "Cells":[
+                                                {
+                                                    "CellHeight": "100%",
+                                                    "Cellwidth":"70%",
+                                                    "Rows":[
+                                                        {
+                                                            "Cells":[
+                                                                {
+                                                                    "CellHeight": "40%",
+                                                                    "Cellwidth":"50%",
+                                                                    "ControlKey": [
+                                                                        "no-card"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "CellHeight": "40%",
+                                                                    "Cellwidth":"50%",
+                                                                    "ControlKey": [
+                                                                        "no-card"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Cells":[
+                                                                {
+                                                                    "CellHeight": "40%",
+                                                                    "Cellwidth":"50%",
+                                                                    "ControlKey": [
+                                                                        "no-card"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "CellHeight": "40%",
+                                                                    "Cellwidth":"50%",
+                                                                    "ControlKey": [
+                                                                        "no-card"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "ControlKey": [
+                                                        "no-card"
+                                                    ],
+                                                    "CellHeight": "80%",
+                                                    "Cellwidth":"30%"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "CellId":"01",
+                    "RowId":"0"
+                }
+            ],
+            "RowId":"0"
+        },
+        {
+            "Cells": [
+                {
+                    "ControlKey": [
+                        "no-card"
+                    ],
+                    "CellHeight": "100%",
+                    "Cellwidth":"50%"
+                },
+                {
+                    "ControlKey": [
+                        "no-card"
+                    ],
+                    "CellHeight": "100%",
+                    "Cellwidth":"50%"
+                }
+            ],
+            "RowId":"1"
+        }
+    ]
+}

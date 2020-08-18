@@ -1,0 +1,104 @@
+{
+    "nodes":[
+        {
+            "childId": "1",
+            "parentId": null,
+            "name": "1JSingh",
+            "empCode": "20001",
+            "url": "xyz.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9u6TCHl0dJUiFHgK2VDGzEyE7vvPoSwq6jGl9JSsLK2dsJULr",
+            "desc": "hi i am a emp",
+            "spouse": "LSingh",
+            "spouseEmpCode": "20002",
+            "spouseImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHzkucWOorUVdVIRmf373jkmWjEmLGUxl32iX9QvmF7WLy8o9P",
+            "other": null,
+            "toggle": false
+        },
+
+        {
+            "childId": "2",
+            "parentId": "1",
+            "name": "2ASingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9u6TCHl0dJUiFHgK2VDGzEyE7vvPoSwq6jGl9JSsLK2dsJULr",
+            "desc": "hi i am a emp",
+            "spouse": "LSingh",
+            "spouseEmpCode": "20002",
+            "spouseImage": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "other": null,
+            "toggle": false
+        },
+        {
+            "childId": "3",
+            "parentId": "1",
+            "name": "3VSingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9u6TCHl0dJUiFHgK2VDGzEyE7vvPoSwq6jGl9JSsLK2dsJULr",
+            "desc": "hi i am a emp",
+            "spouse": "3spouse",
+            "spouseEmpCode": "20002",
+            "spouseImage": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "other": {
+                "icon": "+",
+                "text": "2 Wives",
+                "desc": []
+            },
+            "toggle": false
+        },
+
+        {
+            "childId": "4",
+            "parentId": "3",
+            "name": "4AySingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9u6TCHl0dJUiFHgK2VDGzEyE7vvPoSwq6jGl9JSsLK2dsJULr",
+            "desc": "hi i am a emp",
+            "spouse": "",
+            "spouseEmpCode": "20002",
+            "spouseImage": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "other": null,
+            "toggle": false
+        },
+        {
+            "childId": "5",
+            "parentId": "3",
+            "name": "5TanSingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "desc": "hi i am a emp",
+            "spouse": "",
+            "other": null,
+            "toggle": false
+        },
+
+        {
+            "childId": "6",
+            "parentId": "2",
+            "name": "6TanSingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "desc": "hi i am a emp",
+            "spouse": "",
+            "other": null,
+            "toggle": false
+        },
+
+        {
+            "childId": "7",
+            "parentId": "2",
+            "name": "7TanSingh",
+            "empCode": "20002",
+            "url": "xyz.com",
+            "image": "https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg",
+            "desc": "hi i am a emp",
+            "spouse": "",
+            "other": null,
+            "toggle": false
+        }
+    ]
+}

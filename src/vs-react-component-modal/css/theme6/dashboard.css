@@ -1,0 +1,105 @@
+/* line 1, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body.bg-light-gray {
+  background: #ffffff !important; }
+
+/* line 5, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+.appLoader {
+  display: none; }
+
+/* line 9, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+.compositItems .text + .text {
+  font-weight: 400;
+  /* font-family: CrmSansSemiBold; */ }
+
+/* line 15, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .main-content {
+  padding: 0; }
+  /* line 18, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crmBodyContainer {
+    max-width: 100%; }
+  /* line 22, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .section-contents {
+    padding: 0; }
+  /* line 26, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .form .form-row .form-element--group {
+    padding: 0; }
+  /* line 30, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .tab-container.detailtab {
+    box-shadow: none; }
+    /* line 33, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+    body .main-content .tab-container.detailtab .tab__section {
+      padding: 0;
+      border: 0; }
+  /* line 40, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .form-element.form-element--labelRight {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+    top: -3px;
+    max-width: 600px !important; }
+    /* line 48, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+    body .main-content .form-element.form-element--labelRight > .form-element__label {
+      order: -1;
+      padding-right: 12px; }
+  /* line 56, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .tab-manu-container .tablist__item .tablist__item--child {
+    letter-spacing: .2px;
+    font-size: 13px; }
+  /* line 63, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .tab-manu-container li.tablist__item.tablist__item--active .tablist__item--child {
+    font-family: CrmSansSemiBold; }
+  /* line 69, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .custom-btn-listing.button-list {
+    background: #ffffff; }
+  /* line 75, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crm-table .tableWrapper {
+    margin: 0;
+    box-shadow: none !important;
+    border: 0; }
+  /* line 81, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crm-table .crm-table__header {
+    padding: 12px 16px;
+    color: #222222; }
+  /* line 88, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crm-table .GridTilesView .react-grid-Canvas > div:empty {
+    display: none; }
+  /* line 93, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crm-table .GridTilesView .react-grid-Canvas > div .crm-grid-row .addressCard__item {
+    background: #ffffff; }
+  /* line 97, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .crm-table .GridTilesView .react-grid-Canvas > div .crm-grid-row .addressCard__footer {
+    background: #ffffff; }
+  /* line 103, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .ContentSec {
+    padding: 4px;
+    position: relative; }
+  /* line 108, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+  body .main-content .react-grid-layout > div {
+    overflow: hidden; }
+
+/* line 114, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .custom-label-filter {
+  font-size: 13px !important;
+  padding-right: 12px;
+  padding-top: 7px;
+  color: #000; }
+
+/* line 121, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .custom-label-filter + div select {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: #fff; }
+
+/* line 129, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .analytics-table .rt-th.ph-16.f14.primary.pv-8.bg-near-white {
+  padding: 8px 16px !important; }
+
+/* line 133, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .analytics-table .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: solid 1px #ddd; }
+
+/* line 137, SCSS_NEW/components/partials/dashboard-new/desktop/_base.scss */
+body .analytics-table .ReactTable {
+  border: 0px; }

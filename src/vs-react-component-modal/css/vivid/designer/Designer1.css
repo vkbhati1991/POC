@@ -1,0 +1,1055 @@
+
+/* line 2, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.analyticsContainer .main-content {
+  max-width: 100%;
+  padding: 0; }
+  /* line 5, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsContainer .main-content .crmBodyContainer {
+    max-width: 100%; }
+
+/* line 9, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.analyticsContainer .anlHeaderContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #2d2d2d; }
+  /* line 14, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsContainer .anlHeaderContainer .anlHeaderTitle {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "CRMSansSemiBold", Arial, sans-serif;
+    font-size: 14px;
+    color: #fff; }
+  /* line 25, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsContainer .anlHeaderContainer .anlHeader {
+    display: flex;
+    width: -webkit-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    width: -ms-calc(100% - 250px);
+    width: -o-calc(100% - 250px);
+    width: calc(100% - 250px);
+    color: #fff; }
+    /* line 29, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .analyticsContainer .anlHeaderContainer .anlHeader .header__item-button {
+      display: flex;
+      align-items: center;
+      padding-left: 1rem; }
+      /* line 33, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .analyticsContainer .anlHeaderContainer .anlHeader .header__item-button .buuton-link {
+        padding: 0 1rem;
+        display: inline-flex;
+        align-items: center;
+        height: 30px;
+        background: transparent;
+        border: 1px solid #fff; }
+        /* line 40, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .analyticsContainer .anlHeaderContainer .anlHeader .header__item-button .buuton-link .button-icon {
+          font-size: 16px;
+          margin-right: .5rem;
+          color: #fff; }
+        /* line 45, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .analyticsContainer .anlHeaderContainer .anlHeader .header__item-button .buuton-link .button-text {
+          color: #fff; }
+    /* line 50, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 3.5rem;
+      border-right: 1px solid #585858; }
+      /* line 57, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group {
+        display: flex;
+        align-items: center;
+        padding: 0 .5rem; }
+        /* line 61, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar {
+          border: 1px solid #ddd !important;
+          min-height: 30px;
+          max-height: 30px;
+          background: transparent !important;
+          color: #fff !important; }
+          /* line 67, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .field--search .selectbox-container .selectbox-listing, .field--search .selectbox-container .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox-listing, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .field--search .selectbox-container .selectbox-listing, .field--search .selectbox-container .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox-listing, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field select, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar select,
+          .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .fo,
+          .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .fo, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .PickerFliter .selectbox-listing, .PickerFliter .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox-listing, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .PickerFliter .selectbox-listing, .PickerFliter .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox-listing, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .ui-datepicker-title select, .ui-datepicker-title .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field select {
+            color: #fff; }
+            /* line 69, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+            .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .field--search .selectbox-container .selectbox-listing option, .field--search .selectbox-container .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox-listing option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .field--search .selectbox-container .selectbox-listing option, .field--search .selectbox-container .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox-listing option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field select option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar select option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .fo option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .fo option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .PickerFliter .selectbox-listing option, .PickerFliter .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .selectbox-listing option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .PickerFliter .selectbox-listing option, .PickerFliter .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .date-field-container > .input-calendar .selectbox-listing option, .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field .ui-datepicker-title select option, .ui-datepicker-title .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .field select option {
+              color: #000; }
+        /* line 74, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .analyticsContainer .anlHeaderContainer .anlHeader .anlHeader__item .anlHeader-icons-group .header-icon {
+          margin: 0 .5rem;
+          cursor: pointer; }
+
+/* line 88, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .dropdown-link {
+  position: relative; }
+  /* line 90, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .dropdown-link .dropdown-list {
+    width: 8rem;
+    position: absolute;
+    left: 0;
+    background-color: #444b53;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.13);
+    z-index: 10;
+    display: none;
+    padding: .5rem 0;
+    border: 1px solid #dddddd; }
+  /* line 101, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .dropdown-link .dropdown-list__link {
+    padding: .4rem 1.5rem;
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #f2f2f2; }
+    /* line 107, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .dropdown-link .dropdown-list__link:hover {
+      background-color: rgba(33, 150, 243, 0.4); }
+
+/* line 115, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .dropdown-link:hover .dropdown-list {
+  display: block; }
+
+/* line 121, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .footer {
+  height: 3rem;
+  border-top: 1px solid #dddbda;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 0 1rem; }
+
+/* line 130, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .customselect select {
+  border: 1px solid #dddbda;
+  background: transparent;
+  border-radius: 3px;
+  height: 24px;
+  padding: 0 .5rem;
+  width: 100%; }
+  /* line 137, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .customselect select:hover {
+    border-color: #999999; }
+
+/* line 141, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .mainContent {
+  display: flex; }
+
+/* line 145, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel {
+  width: 210px;
+  padding: .75rem;
+  height: calc(100vh - 5rem);
+  overflow: auto;
+  margin: 0 10px 0 0px;
+  background-color: #fff; }
+  /* line 152, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .panel .panel-heading {
+    padding-bottom: .5rem;
+    font-family: "CRMSansSemiBold", Arial, sans-serif;
+    font-size: 13px; }
+  /* line 157, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .panel .panel__box {
+    min-height: 5rem;
+    border: 1px solid #dddbda;
+    background: #fafafa;
+    margin-top: -1px;
+    margin-bottom: .75rem;
+    padding: .75rem; }
+    /* line 164, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel .panel__box .panel-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+    /* line 168, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel .panel__box .title-icon {
+      font-size: 8px;
+      cursor: pointer;
+      opacity: 0; }
+    /* line 173, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel .panel__box:hover .title-icon {
+      opacity: 1; }
+    /* line 176, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel .panel__box .panel-body {
+      padding-top: 1rem; }
+
+/* line 182, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .titlesView {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 187, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .tile--sm {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #dddbda;
+  margin-top: .75rem;
+  margin-right: .5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  /* line 199, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .tile--sm .tile__icon {
+    text-align: center; }
+  /* line 202, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .tile--sm:hover {
+    border-color: #999999; }
+  /* line 204, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .tile--sm .sketch-picker, #AnalyticsForm .tile--sm .tiles-content {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 10; }
+
+/* line 216, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .tile__text {
+  padding-top: 6px;
+  font-size: 11px; }
+
+/* line 221, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-content {
+  width: calc(100% - 570px);
+  width: -webkit-calc(100% - 570px); }
+
+/* line 228, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .contentbox {
+  width: 100%;
+  border: 1px solid #dddbda;
+  background: #fff;
+  height: calc(100vh - 180px);
+  height: -webkit-calc(100vh - 5rem);
+  overflow: auto; }
+
+/* line 237, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-graph {
+  width: 170px;
+  overflow: auto;
+  border: 1px solid #dddbda;
+  margin-left: .75rem;
+  margin-bottom: -1px;
+  height: calc(100vh - 5rem);
+  height: -webkit-calc(100vh - 5rem);
+  padding: 0; }
+  /* line 246, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .panel-graph .panel-heading {
+    padding: .75rem;
+    font-family: "CRMSansSemiBold", Arial, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee; }
+
+/* line 256, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .75rem; }
+  /* line 260, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .panel-items .panelSetting-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    font-size: 13px; }
+    /* line 267, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel-items .panelSetting-item .panelSetting-title {
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+      padding: .5rem;
+      border: 1px solid #ddd;
+      background-color: #eee; }
+      /* line 274, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .panel-items .panelSetting-item .panelSetting-title span {
+        font-family: "CRMSansSemiBold", Arial, sans-serif; }
+    /* line 278, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec {
+      max-height: 300px;
+      overflow: auto; }
+      /* line 281, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des {
+        margin-top: -1px;
+        padding: .5rem;
+        border: 1px solid #ddd; }
+        /* line 285, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-heading {
+          font-family: "CRMSansSemiBold", Arial, sans-serif;
+          margin-bottom: .25rem; }
+        /* line 289, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-list {
+          border-bottom: 1px solid #ddd;
+          padding: 0.5rem 0; }
+          /* line 292, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-list:first-child {
+            padding-top: 0; }
+          /* line 295, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-list:last-child {
+            padding-bottom: 0;
+            border: 0; }
+          /* line 299, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-list .panelSetting-lable {
+            margin-bottom: .25rem; }
+        /* line 303, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-radio {
+          margin: 0 0.5rem 0.25rem 0; }
+        /* line 306, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-listitem {
+          display: grid;
+          margin-bottom: .25rem; }
+          /* line 309, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          #AnalyticsForm .panel-items .panelSetting-item .panelSetting-desSec .panelSetting-des .panelSetting-listitem .radiobuttonlist {
+            margin-bottom: .25rem; }
+  /* line 316, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .panel-items .panelSetting {
+    width: calc(100% - 12px); }
+
+/* line 322, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-grpah__item {
+  width: 36px;
+  overflow: hidden;
+  height: 40px;
+  margin-top: .5rem;
+  margin-right: .5rem;
+  border: 1px solid #dddbda;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 335, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-grpah__item i {
+  font-size: 1rem; }
+
+/* line 338, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-grpah__item img {
+  width: 100%; }
+
+/* line 341, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .panel-grpah__item:hover {
+  border-color: #999999; }
+
+/* line 345, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .button--rounded {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative; }
+  /* line 350, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .button--rounded .button__icon {
+    font-size: 1rem;
+    color: #4CAF50;
+    margin-right: .75rem; }
+  /* line 354, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .button--rounded .button__text {
+    font-size: 12px;
+    padding: .25rem .5rem;
+    background: #f67280;
+    border-radius: .75rem;
+    font-weight: 400;
+    flex: 1; }
+
+/* line 368, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm #range {
+  -webkit-appearance: none;
+  outline: none;
+  background: #2d7d2f;
+  height: 6px;
+  width: 200px;
+  border-radius: 5px; }
+
+/* line 376, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm #range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #2d7d2f; }
+
+/* line 382, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .side-navDesignerCntn {
+  background-color: #333333; }
+  /* line 384, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .side-navDesignerCntn .navDesignerTitle {
+    padding: 10px 1rem;
+    color: #fff;
+    font-size: 15px;
+    font-family: "CRMSansSemiBold", Arial, sans-serif;
+    background-color: #535961;
+    text-align: center; }
+  /* line 392, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .side-navDesignerCntn .side-navDesigner {
+    font-size: 12px;
+    width: 250px;
+    height: calc(100vh - 5rem);
+    overflow: auto; }
+    /* line 398, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item {
+      font-size: 13px;
+      color: #fff;
+      padding: 1rem;
+      /* background-color: #5a6169; */
+      border-bottom: 1px solid #697077; }
+      /* line 404, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-title {
+        padding: 8px 0px; }
+      /* line 407, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-list-link {
+        display: flex;
+        flex: 1;
+        color: #fff;
+        font-size: 13px;
+        align-items: center;
+        margin: -1px 0;
+        padding: 7px;
+        background-color: #535961;
+        border: 1px solid #666c73; }
+        /* line 417, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-list-link span {
+          margin-right: 5px; }
+        /* line 420, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-list-link .customselect {
+          flex: 1; }
+      /* line 425, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-list {
+        padding-top: .75rem 0; }
+        /* line 427, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        #AnalyticsForm .side-navDesignerCntn .side-navDesigner .side-nav__item .side-nav-list:empty {
+          display: none; }
+
+/* line 434, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .tileItems {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+/* line 440, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .row {
+  margin-bottom: .75rem; }
+  /* line 442, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .row:hover {
+    border-color: #999999; }
+  /* line 444, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .row .row__item {
+    display: flex;
+    min-height: 5rem;
+    padding: .75rem !important;
+    flex: 1;
+    flex-direction: column;
+    height: auto;
+    margin-top: -1px;
+    border: 2px dashed #ddd;
+    background-color: #eee;
+    justify-content: left;
+    font-size: 13px;
+    padding-bottom: 1rem !important;
+    color: #bbbaba;
+    max-height: 200px; }
+    /* line 459, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .row .row__item .dropText {
+      color: #cccccc;
+      font-size: 0.75rem;
+      padding: 1rem 0;
+      text-align: center; }
+    /* line 465, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .row .row__item .dragable__action {
+      margin: 3px !important;
+      padding: 0.5rem !important;
+      border-radius: 0 !important;
+      color: #333;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      background-color: #ddd !important; }
+      /* line 474, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      #AnalyticsForm .row .row__item .dragable__action .dragable__actionBtn {
+        height: 100%;
+        width: 20px;
+        border: 1px solid #ccc;
+        background-color: #ccc;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #333; }
+    /* line 485, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    #AnalyticsForm .row .row__item .item-icon {
+      margin-right: .75rem; }
+  /* line 489, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  #AnalyticsForm .row .row__item--sm {
+    border: 1px solid #dddbda;
+    height: 2.5rem;
+    padding: .75rem; }
+
+/* line 495, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .dropSect {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 0 .75rem;
+  flex: 1;
+  margin-top: -1px;
+  border: 2px dashed #ddd;
+  background-color: #eee;
+  justify-content: center;
+  font-size: 13px;
+  color: #bbbaba; }
+
+/* line 508, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .item-text, #AnalyticsForm .title-text {
+  font-size: 13px; }
+
+/* line 514, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .pageScroll::-webkit-scrollbar-track {
+  width: 8px;
+  background-color: transparent; }
+
+/* line 519, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .pageScroll::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px; }
+
+/* line 524, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+#AnalyticsForm .pageScroll::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  width: 8px; }
+
+/* line 533, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.connector-wrapper {
+  flex: 1;
+  width: 100%; }
+  /* line 537, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .connector-wrapper .connector-form .connector-footerBtn {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem; }
+  /* line 544, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .connector-wrapper .boxGrid-container {
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 547, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .connector-wrapper .boxGrid-container .boxGrid-items {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-right: 1rem;
+      min-width: 12rem;
+      flex: 1;
+      overflow: hidden;
+      border: 1px solid #dedede;
+      border-radius: 10px; }
+      /* line 560, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .connector-wrapper .boxGrid-container .boxGrid-items:last-child {
+        margin-right: 0; }
+      /* line 563, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .connector-wrapper .boxGrid-container .boxGrid-items .boxGrid-action {
+        text-align: center;
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        /* line 571, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .connector-wrapper .boxGrid-container .boxGrid-items .boxGrid-action .boxGrid-icon {
+          font-size: 2rem;
+          height: 5rem;
+          width: 5rem;
+          display: flex;
+          align-items: center;
+          border-radius: 100%;
+          justify-content: center;
+          color: #00a99d;
+          border: 1px solid rgba(0, 169, 157, 0.3);
+          box-shadow: 0 0 0 8px rgba(0, 169, 157, 0.07); }
+        /* line 583, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .connector-wrapper .boxGrid-container .boxGrid-items .boxGrid-action .boxGrid-text {
+          color: #343a40;
+          font-weight: 400;
+          margin: 1.5rem 0;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-family: CrmSansSemiBold;
+          text-align: center; }
+        /* line 592, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+        .connector-wrapper .boxGrid-container .boxGrid-items .boxGrid-action .boxGrid-ovrlyLink {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          left: 0; }
+          /* line 599, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+          .connector-wrapper .boxGrid-container .boxGrid-items .boxGrid-action .boxGrid-ovrlyLink .boxGrid-button {
+            padding: 8px 20px;
+            font-size: 13px;
+            color: #fff;
+            text-transform: uppercase;
+            border-radius: 15px;
+            background-color: #00a99d; }
+
+/* line 616, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.connector-wrapper .form-wapper {
+  width: 1000px;
+  margin: 40px auto; }
+  /* line 619, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .connector-wrapper .form-wapper .back-button {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #333;
+    float: right;
+    padding: 1rem 2.5rem;
+    margin-bottom: 1rem; }
+  /* line 628, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .connector-wrapper .form-wapper .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc; }
+    /* line 635, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .connector-wrapper .form-wapper .form-container .form-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      /* line 639, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .connector-wrapper .form-wapper .form-container .form-row .form-label {
+        display: flex;
+        padding-right: 10px;
+        width: 15rem;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 14px;
+        color: #555; }
+      /* line 648, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .connector-wrapper .form-wapper .form-container .form-row .form-input {
+        padding: 10px;
+        flex: 1;
+        width: 100%; }
+    /* line 653, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .connector-wrapper .form-wapper .form-container .form-input input, .connector-wrapper .form-wapper .form-container .form-input textarea, .connector-wrapper .form-wapper .form-container select {
+      min-height: 40px;
+      padding: 8px 10px;
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.16); }
+  /* line 661, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .connector-wrapper .form-wapper .form-input textarea {
+    min-height: 80px; }
+
+/* line 666, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter-main {
+  padding: 1rem 0rem 1rem 1rem; }
+
+/* line 670, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter {
+  padding: 1rem; }
+
+/* line 674, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter-child {
+  padding: 1rem; }
+
+/* line 678, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter-subChild {
+  padding: 1rem; }
+
+/* line 681, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter-list {
+  display: flex; }
+
+/* line 684, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.treeFilter-item {
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin: 2px; }
+
+/* line 690, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
+
+/* line 697, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+/* line 703, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+/* line 715, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+/* line 727, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+input:checked + .slider {
+  background-color: #2196F3; }
+
+/* line 731, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3; }
+
+/* line 735, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* line 742, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.slider.round {
+  border-radius: 34px; }
+
+/* line 746, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.slider.round:before {
+  border-radius: 50%; }
+
+/* line 751, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.tinyPopover {
+  padding: 0;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  width: 200px;
+  height: auto;
+  overflow: visible !important; }
+  /* line 760, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .tinyPopover .dragable__itemHeader {
+    padding: .75rem;
+    background-color: #444b53;
+    color: #fff; }
+  /* line 765, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .tinyPopover .dragable__subItems {
+    height: 200px;
+    overflow: auto; }
+  /* line 769, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .tinyPopover .dragable__subList {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .5rem; }
+    /* line 772, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .tinyPopover .dragable__subList .dragable__subItemslist {
+      padding: .5rem .75rem .25rem .75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'CrmSansSemiBold'; }
+      /* line 778, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .tinyPopover .dragable__subList .dragable__subItemslist i {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        background: #ddd;
+        border-radius: 100%;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center; }
+  /* line 802, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .tinyPopover .dragable__tileMenu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px; }
+    /* line 806, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .tinyPopover .dragable__tileMenu .dragable__subItemslist {
+      width: 50%;
+      border: 1px solid #ddd;
+      margin-top: -1px;
+      margin-right: -1px;
+      justify-content: center; }
+      /* line 812, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .tinyPopover .dragable__tileMenu .dragable__subItemslist.subItemslist--active {
+        background-color: #00a99d;
+        color: #fff; }
+
+/* line 819, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.colorPanel {
+  display: flex;
+  justify-content: space-evenly;
+  padding: .5rem 0; }
+  /* line 823, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .colorPanel .box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    clear: both; }
+
+/* line 832, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.AnalyticsActions {
+  position: absolute;
+  right: -7px;
+  top: 90px;
+  background-color: #ddd;
+  width: 40px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding: .25rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+  /* line 845, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .AnalyticsActions i {
+    margin: .5rem;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%; }
+
+/* line 859, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.CrmTable {
+  width: 100%; }
+  /* line 861, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .CrmTable thead th {
+    border: 1px solid #ddd;
+    padding: .5rem; }
+  /* line 865, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .CrmTable td {
+    padding: .5rem;
+    border: 1px solid #ddd; }
+
+/* line 871, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.analyticsSavePopUp {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  font-size: 0.875rem; }
+  /* line 876, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsSavePopUp .button, .analyticsSavePopUp .button-group--custom .button-group__item, .button-group--custom .analyticsSavePopUp .button-group__item, .analyticsSavePopUp .button-group--custom .custom-btn-listing .tb i, .button-group--custom .custom-btn-listing .tb .analyticsSavePopUp i, .analyticsSavePopUp .custom-btn-listing .tb .button-group--custom i, .custom-btn-listing .tb .button-group--custom .analyticsSavePopUp i, .analyticsSavePopUp .button-group--custom #custom-div-button .more-listcon li, .button-group--custom #custom-div-button .more-listcon .analyticsSavePopUp li, .analyticsSavePopUp #custom-div-button .more-listcon .button-group--custom li, #custom-div-button .more-listcon .button-group--custom .analyticsSavePopUp li, .analyticsSavePopUp .button-group--custom .cloud-listitem, .button-group--custom .analyticsSavePopUp .cloud-listitem, .analyticsSavePopUp .fbnc, .analyticsSavePopUp .button-link-group a, .button-link-group .analyticsSavePopUp a,
+  .analyticsSavePopUp .button-link-group button, .button-link-group .analyticsSavePopUp button, .analyticsSavePopUp .ui-dialog .ui-dialog-buttonpane .ui-button, .ui-dialog .ui-dialog-buttonpane .analyticsSavePopUp .ui-button, .analyticsSavePopUp .widgetlistingDialog .ui-dialog .custom-btn-listing.button-list .tb, .widgetlistingDialog .ui-dialog .custom-btn-listing.button-list .analyticsSavePopUp .tb, .analyticsSavePopUp .notificationWithActions.popup-with-footer .popup-sroll .object-action-btn .object-action-inner .button-icon-text, .notificationWithActions.popup-with-footer .popup-sroll .object-action-btn .object-action-inner .analyticsSavePopUp .button-icon-text, .analyticsSavePopUp .notificationWithActions.popup-with-footer .popup-sroll .react-form-btns .object-action-inner .button-icon-text, .notificationWithActions.popup-with-footer .popup-sroll .react-form-btns .object-action-inner .analyticsSavePopUp .button-icon-text, .analyticsSavePopUp .ui-dialog.calenderCon .object-action-inner .button-icon-text, .ui-dialog.calenderCon .object-action-inner .analyticsSavePopUp .button-icon-text, .analyticsSavePopUp .flowWithNavigation .scrennflowStepBar .scrennflowStep__top .scrennflowStep__btn .button-icon-text, .flowWithNavigation .scrennflowStepBar .scrennflowStep__top .scrennflowStep__btn .analyticsSavePopUp .button-icon-text {
+    border-radius: 0;
+    max-height: 45px;
+    height: 37px;
+    width: 30px;
+    margin: 25px auto 0 auto;
+    text-transform: uppercase;
+    font-size: 0.9375rem; }
+  /* line 885, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsSavePopUp label.savePopUp-label {
+    padding-right: 10px; }
+  /* line 888, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .analyticsSavePopUp .analyticsSavePopUp-cntn {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; }
+
+/* line 893, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.dashletGraph {
+  max-width: 100%; }
+  /* line 899, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .dashletGraph .dashletGraph-designer {
+    margin: 40px auto;
+    border: 1px solid #eaeaea;
+    max-width: 40%;
+    padding-bottom: 1rem; }
+  /* line 905, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .dashletGraph .dashletLable {
+    display: block;
+    padding: .5rem;
+    padding-bottom: 0;
+    font-size: 0.875rem;
+    font-family: "CRMSansRegular", Arial, sans-serif; }
+  /* line 912, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .dashletGraph .dashlet-valueSec {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    /* line 918, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .dashletGraph .dashlet-valueSec .dashlet-valueCntn {
+      display: flex;
+      border: 1px solid #eaeaea;
+      margin: 0 auto 0 auto;
+      border-radius: .5rem;
+      max-width: calc(100% - 1rem); }
+    /* line 926, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .dashletGraph .dashlet-valueSec .dashletValue {
+      flex: 1;
+      font-size: 1.5rem;
+      padding: 0 .5rem;
+      font-family: "CRMSansLight", Arial, sans-serif; }
+    /* line 932, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .dashletGraph .dashlet-valueSec .dashletGraphImgBox {
+      background-color: #eaeaea;
+      padding: .25rem; }
+
+/* line 939, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.riteshvivid {
+  max-width: 100%;
+  border-radius: 4px; }
+
+/* line 944, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.selectTemplate {
+  display: flex;
+  justify-content: center;
+  flex: 1; }
+  /* line 948, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .selectTemplate .selectTemplate-cntn {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #eaeaea;
+    border-radius: 5px;
+    flex-direction: column; }
+    /* line 956, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .selectTemplate .selectTemplate-cntn .selectTemplate-icon {
+      font-size: 10rem;
+      color: #f2f2f2; }
+    /* line 960, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .selectTemplate .selectTemplate-cntn .selectTemplate-Btn {
+      position: absolute;
+      font-size: 1rem;
+      margin: 0 auto;
+      color: #777;
+      background-color: #eaeaea8a;
+      border-radius: 5px;
+      padding: .75rem 2rem;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      font-family: "CRMSansSemiBold", Arial, sans-serif; }
+      /* line 972, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .selectTemplate .selectTemplate-cntn .selectTemplate-Btn:hover {
+        background-color: #eaeaea; }
+  /* line 977, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .selectTemplate .selectTemplate-center {
+    display: flex;
+    align-items: center;
+    /* padding: 3rem; */
+    width: 10%;
+    justify-content: center;
+    font-size: 3rem;
+    color: #dadce0;
+    font-family: "CRMSansLight", Arial, sans-serif; }
+
+/* line 989, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.selectTemplate-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1; }
+  /* line 994, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .selectTemplate-list .selectTemplate-items {
+    min-height: 3.5rem;
+    padding: .5rem 1rem;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+    color: #555;
+    max-width: 100%;
+    min-width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: -1px 0 0 -1px;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s; }
+    /* line 1008, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .selectTemplate-list .selectTemplate-items:hover {
+      background-color: #eaeaea; }
+    /* line 1011, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .selectTemplate-list .selectTemplate-items i {
+      margin-right: .5rem;
+      font-size: 16px; }
+    /* line 1015, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .selectTemplate-list .selectTemplate-items span {
+      font-size: 13px;
+      font-family: "CRMSansSemiBold", Arial, sans-serif; }
+
+/* line 1021, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.ContentSec {
+  min-height: 1000px; }
+
+/* line 1025, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.analyticsWrapper .crmBodyContainer {
+  max-width: 100%;
+  width: 100%; }
+
+/* line 1032, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+.dashletGraph {
+  display: flex; }
+  /* line 1035, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .dashletGraph .dashletGraph-icon {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .5rem; }
+  /* line 1042, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+  .dashletGraph .dashletGraph-des {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column; }
+    /* line 1047, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+    .dashletGraph .dashletGraph-des .dashletValue {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center; }
+      /* line 1053, SCSS_NEW/components/partials/analytics/desktop/_base.scss */
+      .dashletGraph .dashletGraph-des .dashletValue div {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center; }
+		
+.dashboardDesigner .griddle-body{
+    max-height: 100%;
+    overflow: auto;
+  }
+
+.compositRow {
+  display: flex;
+}
+
+.compositRow .compositItems {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #eaeaea;}
+

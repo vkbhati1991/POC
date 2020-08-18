@@ -1,0 +1,360 @@
+{
+    "nodes": [
+        {
+            "nodeId": 1,
+            "label": "San Miguel Corp",
+            "type": "round",
+            "color": "#1d9180",
+            "colorLink": "blue",
+            "image": "./group.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Group"
+        },
+        {
+            "nodeId": 2,
+            "label": "San Miguel Food & Bevrage Inc.",
+            "type": "round",
+            "color": "#1d9180",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 3,
+            "label": "San Miguel Brewery Inc.",
+            "type": "square",
+            "color": "#495da4",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 4,
+            "label": "Ginebra San Miguel Inc.",
+            "type": "square",
+            "color": "#495da4",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 5,
+            "label": "SMPFC Operating Entities",
+            "type": "square",
+            "color": "#495da4",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 6,
+            "label": "Petron",
+            "type": "round",
+            "color": "#1d9180",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Joint Venture",
+            "per": "19% (Share)",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 7,
+            "label": "SEA Refinery Corporation",
+            "type": "round",
+            "color": "#1d9180",
+            "colorLink": "blue",
+            "image": "./group.png",
+            "relation": "Joint Venture",
+            "per": "51% (Share)",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 8,
+            "label": "Petrogen Insurance Corp",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 9,
+            "label": "Petron Global Limited",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 10,
+            "label": "Petron Finance",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 11,
+            "label": "Petron Freeport Corp",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 12,
+            "label": "Overseas Ventures Insurance Corp",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 13,
+            "label": "Petron Marketing Corp",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 14,
+            "label": "Petron Singapore Pte.Ltd",
+            "type": "square",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 15,
+            "label": "Petron Oil & Gas Mauritius Ltd",
+            "type": "round",
+            "color": "#ff9800",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 16,
+            "label": "Petron Oil & Gas International Sdn.Bhd",
+            "type": "square",
+            "color": "#80898e",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Group of Companies",
+            "per": "100% (Share)",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 17,
+            "label": "Pilipinas Shell ",
+            "type": "square",
+            "color": "#03a9f4",
+            "colorLink": "blue",
+            "image": "./group.png",
+            "relation": "Joint Venture",
+            "per": "40% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 18,
+            "label": "Pandacan Depot Services Inc ",
+            "type": "round",
+            "color": "#03a9f4",
+            "colorLink": "blue",
+            "image": "./account.png",
+            "relation": "Joint Venture",
+            "per": "33% (Share)",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 19,
+            "label": "Eduardo M. Cojuangco, Jr.",
+            "type": "square",
+            "color": "#199982",
+            "colorLink": "blue",
+            "image": "./contact.png",
+            "relation": "CEO",
+            "per": "N/A",
+            "active": "Prospect"
+        },
+        {
+            "nodeId": 20,
+            "label": "Ramon S. Ang ",
+            "type": "square",
+            "color": "#199982",
+            "colorLink": "blue",
+            "image": "./contact.png",
+            "relation": "COO",
+            "per": "N/A",
+            "active": "Customer"
+        },
+        {
+            "nodeId": 21,
+            "label": "Ferdinand K. Constantino ",
+            "type": "square",
+            "color": "#199982",
+            "colorLink": "blue",
+            "image": "./contact.png",
+            "relation": "CFO",
+            "per": "N/A",
+            "active": "Customer"
+        },
+        {
+             "nodeId": 22,
+            "label": "Mary S. ",
+            "type": "square",
+            "color": "#199982",
+            "colorLink": "blue",
+            "image": "./contact.png",
+            "relation": "VP",
+            "per": "N/A",
+            "active": "Customer"
+        }
+
+
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2,
+            "colorLink": "#199982"
+        },
+        {
+            "source": 1,
+            "target": 19,
+            "colorLink": "#199982"
+        },
+        {
+            "source": 1,
+            "target": 20,
+            "colorLink": "#199982"
+        },
+        {
+            "source": 1,
+            "target": 21,
+            "colorLink": "#199982"
+        },
+        {
+            "source": 1,
+            "target": 22,
+            "colorLink": "#199982"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "colorLink": "#495da4"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "colorLink": "#495da4"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "colorLink": "#495da4"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "colorLink": "#1d9180"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "colorLink": "#1d9180"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "colorLink": "#1d9180"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 11,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 12,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 13,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 14,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 6,
+            "target": 15,
+            "colorLink": "#ff9800"
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "colorLink": "#80898e"
+        },
+        {
+            "source": 17,
+            "target": 18,
+            "colorLink": "#03a9f4"
+        },
+        {
+            "source": 6,
+            "target": 18,
+            "colorLink": "#03a9f4"
+        }
+    ]
+}

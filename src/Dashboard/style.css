@@ -1,0 +1,270 @@
+.dd {
+    position: absolute;
+    width: 8.333%;
+    min-height: 48px;
+    height: 48px;
+    left: 16px;
+    top: 16px;
+    text-transform: uppercase;
+    text-transform: capitalize;border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card-header {
+    border-bottom: 1px solid #ddd;
+    padding: 13px;
+}
+
+.card-bodys {
+    text-align: left;
+    padding: 30px;
+    padding: 16px;
+}
+
+.dd::before {
+    content: '\2198';
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    background: #999;
+    box-sizing: border-box;
+}
+
+.cardssss {
+   
+}
+
+.grid-row {
+    display: flex;
+    width: 100%;
+}
+
+.grid-col {
+    flex: 1;
+    padding: 8px;
+}
+
+.grid-item {
+    border: 1px solid rgba(76, 175, 80, 0.43);
+    background: rgba(76, 175, 80, 0.08);
+    height: 48px;
+}
+
+div#grd-drag {
+    padding: 8px;
+    width: 100%;
+    position: relative;
+}
+
+
+.dragelem {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    right: 0;
+    bottom: 0;
+    cursor: nw-resize;
+}
+
+.grid-stack {
+    position: relative;
+}
+
+.designerHeader {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+    padding: 6px 16px;
+}
+
+.addButton {
+    display: inline-block;
+    background: #00a99d;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+span.remove {
+    color: red;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+}
+
+.grid-stack-item[data-gs-width='1'] {
+    width: calc(8.33333333% - 16px);
+}
+.grid-stack-item[data-gs-width='2'] {
+    width: calc(16.66666666666667% - 18px);
+}
+.grid-stack-item[data-gs-width='3'] {
+    width: calc(25% - 19px);
+}
+.grid-stack-item[data-gs-width='4'] {
+    width: calc(33.33% - 21px);
+}
+.grid-stack-item[data-gs-width='5'] {
+    width: calc(41.66666666666667% - 22px);
+}
+.grid-stack-item[data-gs-width='6'] {
+    width: calc(50% - 24px);
+}
+.grid-stack-item[data-gs-width='7'] {
+    width: calc(58.33% - 24px);
+}
+.grid-stack-item[data-gs-width='8'] {
+    width: calc(66.64% - 26px);
+}
+.grid-stack-item[data-gs-width='9'] {
+    width: calc(75% - 28px);
+}
+.grid-stack-item[data-gs-width='10'] {
+    width: calc(83.33% - 30px);
+}
+.grid-stack-item[data-gs-width='11'] {
+    width: calc(91.63% - 31px);
+}
+.grid-stack-item[data-gs-width='12'] {
+    width: calc(100% - 33px);
+}
+
+.grid-stack-item[data-gs-height='1'] {
+    height: calc(48px);
+}
+
+.grid-stack-item[data-gs-height='2'] {
+    height: 112px;
+}
+.grid-stack-item[data-gs-height='3'] {
+    height: 176px;
+}
+.grid-stack-item[data-gs-height='4'] {
+    height: 240px;
+}
+.grid-stack-item[data-gs-height='5'] {
+    height: 304px;
+}
+.grid-stack-item[data-gs-height='6'] {
+    height: 368px;
+}
+.grid-stack-item[data-gs-height='7'] {
+    height: 432px;
+}
+.grid-stack-item[data-gs-height='8'] {
+    height: 496px;
+}
+.grid-stack-item[data-gs-height='9'] {
+    height: 560px;
+}
+.grid-stack-item[data-gs-height='10'] {
+    height: 624px;
+}
+.grid-stack-item[data-gs-height='11'] {
+    height: 688px;
+}
+.grid-stack-item[data-gs-height='12'] {
+    height: 752px;
+}
+.grid-stack-item[data-gs-height='13'] {
+    height: 816px;
+}
+.grid-stack-item[data-gs-height='14'] {
+    height: 880px;
+}
+.grid-stack-item[data-gs-height='15'] {
+    height: 944px;
+}
+
+.grid-stack-item[data-gs-x='1'] {
+    left: 16px;
+}
+.grid-stack-item[data-gs-x='2'] {
+    left: calc(8.333% + 15px);
+}
+
+.grid-stack-item[data-gs-x='3'] {
+    left: calc(16.66666666666667% + 13px);
+}
+.grid-stack-item[data-gs-x='4'] {
+    left: calc(25% + 12px);
+}
+.grid-stack-item[data-gs-x='5'] {
+    left: calc(33.33% + 10px);
+}
+.grid-stack-item[data-gs-x='6'] {
+    left: calc(41.66666666666667% + 8px);
+}
+.grid-stack-item[data-gs-x='7'] {
+    left: calc(50% + 7px);
+}
+.grid-stack-item[data-gs-x='8'] {
+    left: calc(58.33% + 6px);
+}
+.grid-stack-item[data-gs-x='9'] {
+    left: calc(66.64% + 4px);
+}
+.grid-stack-item[data-gs-x='10'] {
+    left: calc(75% + 4px);
+}
+.grid-stack-item[data-gs-x='11'] {
+    left: calc(83.33% + 2px);
+}
+
+.grid-stack-item[data-gs-x='12'] {
+    left: calc(91.63% + 1px);
+}
+
+.grid-stack-item[data-gs-x='13'] {
+    left: calc(91.63% + 0px);
+}
+
+
+.grid-stack-item[data-gs-y='1'] {
+    top: 16px;
+}
+
+.grid-stack-item[data-gs-y='2'] {
+    top: 80px;
+}
+
+.grid-stack-item[data-gs-y='3'] {
+    top: 144px;
+}
+
+.grid-stack-item[data-gs-y='4'] {
+    top: 208px;
+}
+
+.grid-stack-item[data-gs-y='5'] {
+    top: 272px;
+}
+
+.grid-stack-item[data-gs-y='6'] {
+    top: 336px;
+}
+
+.grid-stack-item[data-gs-y='7'] {
+    top: 400px;
+}
+
+.grid-stack-item[data-gs-y='8'] {
+    top: 464px;
+}
+
+.grid-stack-item[data-gs-y='9'] {
+    top: 528px;
+}
+
+.grid-stack-item[data-gs-y='10'] {
+    top: 592px;
+}
